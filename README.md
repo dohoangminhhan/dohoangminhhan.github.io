@@ -4,4 +4,8 @@ Static academic website adapted directly from the original website provided by t
 
 All biography text, academic milestones, project descriptions, and research output follow the supplied My_CV (6).pdf. The original owner’s portrait, project results, book contribution, research program, citation statistics, and unrelated content are excluded. Project figures are explanatory schematics based on the CV.
 
-No build step is needed. Enable GitHub Pages from the root of main. Before final deployment, update canonical URLs and sitemap to the allocated public origin.
+Live website: https://dohoangminhhan.github.io/
+
+Repository: https://github.com/dohoangminhhan/dohoangminhhan.github.io
+
+No build step is needed. GitHub Pages serves the root of the main branch.
