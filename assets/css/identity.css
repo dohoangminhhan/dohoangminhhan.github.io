@@ -13,3 +13,10 @@
 @media(max-width:900px){.theme-toggle{margin-left:auto}.nav-container{gap:13px}.brand span{font-size:12px}}
 @media(max-width:700px){.mobile-nav.open{top:64px}.research-grid{grid-template-columns:1fr}.profile-copy h1{font-size:39px}}
 @media(max-width:380px){.nav-container{gap:9px}.brand span{font-size:11px}}
+
+/* Supplied project figures retain their full aspect ratio. */
+.portrait-card img{height:auto}
+.research-grid .project-figure{height:300px;padding:14px 14px 28px}
+.project-source-link{display:inline-flex;margin:3px 0 15px;color:var(--blue);font-size:11px;font-weight:650}
+.project-source-link:hover{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){.research-grid .project-figure{height:auto;aspect-ratio:1.35;max-height:350px}}
