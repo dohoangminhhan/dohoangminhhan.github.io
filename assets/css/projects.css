@@ -259,3 +259,9 @@ body.dark-mode .research-filter.active { color: #101a27; }
   .ris-phase-cells rect { opacity: .7; }
   .ris-scan { display: none; }
 }
+
+/* Full project reports remain easy to open with a pointer or keyboard. */
+.project-report-link{display:inline-flex;align-items:center;flex-wrap:wrap;gap:8px;min-height:44px;padding:10px 13px;border:1px solid var(--line);border-radius:10px;text-decoration:none;line-height:1.5}
+.project-report-link:hover{border-color:var(--blue);text-decoration:none}
+.project-report-link:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.project-report-format{font-size:10px;color:var(--muted);font-weight:500}
