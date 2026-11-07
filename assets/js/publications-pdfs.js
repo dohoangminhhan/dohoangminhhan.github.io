@@ -26,7 +26,10 @@
       link.rel = "noopener";
       link.title = "Open full-text PDF";
       link.setAttribute("aria-label", "Open PDF: " + title);
-      link.innerHTML = inactive.innerHTML;
+      // Preserve the existing trusted icon without parsing HTML as a string.
+      for (const child of inactive.childNodes) {
+        link.appendChild(child.cloneNode(true));
+      }
       inactive.replaceWith(link);
     } catch {
       // Leave the PDF button disabled if a public file cannot be confirmed.
