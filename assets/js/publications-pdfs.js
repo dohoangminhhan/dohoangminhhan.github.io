@@ -4,7 +4,7 @@
     J02: "./assets/papers/swipt-af-noma-imperfect-sic.pdf",
     J03: "./assets/papers/secrecy-eh-backscatter-long-short-packets.pdf",
     C01: "./assets/papers/joint-snr-eh-lora-diversity.pdf",
-    M01: "./assets/papers/backscatter-copyright-protected-iot-manuscript.pdf"
+    J04: "./assets/papers/backscatter-copyright-protected-iot-manuscript.pdf"
   };
 
   async function enablePdf(card) {
