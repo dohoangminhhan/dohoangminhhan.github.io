@@ -9,3 +9,4 @@ Live website: https://dohoangminhhan.github.io/
 Repository: https://github.com/dohoangminhhan/dohoangminhhan.github.io
 
 No build step is needed. GitHub Pages serves the root of the main branch.
+<!-- Contributor verification commit -->
